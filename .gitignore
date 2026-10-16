@@ -1,0 +1,22 @@
+# Área pessoal e escolhas locais
+/workspace/
+/.local/
+/.agents/skills/
+/.claude/skills/
+
+# Credenciais e configurações locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+**/settings.local.json
+
+# Artefatos
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+*.log
+.DS_Store
+desktop.ini

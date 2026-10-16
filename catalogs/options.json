@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "tools": [
+    {
+      "id": "editor",
+      "purpose": "Ler e editar Markdown"
+    },
+    {
+      "id": "git",
+      "purpose": "Histórico local"
+    },
+    {
+      "id": "gh",
+      "purpose": "Operar GitHub pelo terminal"
+    },
+    {
+      "id": "python",
+      "purpose": "Executar os scripts opcionais"
+    },
+    {
+      "id": "node",
+      "purpose": "Executar dependências que exigirem Node.js"
+    },
+    {
+      "id": "rg",
+      "purpose": "Buscar texto"
+    },
+    {
+      "id": "backup",
+      "purpose": "Guardar ou sincronizar cópias"
+    }
+  ],
+  "skills": [
+    {
+      "id": "retomar",
+      "description": "Continuar um assunto a partir dos arquivos salvos, após pausa ou troca de agente.",
+      "path": "skills/retomar/SKILL.md",
+      "workflow": "workflows/retomar.md"
+    },
+    {
+      "id": "registrar-sessao",
+      "description": "Registrar resultado durável e checkpoint para continuar o trabalho em outra sessão.",
+      "path": "skills/registrar-sessao/SKILL.md",
+      "workflow": "workflows/registrar-sessao.md"
+    },
+    {
+      "id": "processar-reuniao",
+      "description": "Processar reunião, entrevista ou material recebido em fatos, decisões, compromissos e contexto.",
+      "path": "skills/processar-reuniao/SKILL.md",
+      "workflow": "workflows/processar-reuniao.md"
+    },
+    {
+      "id": "mapear-processo",
+      "description": "Descobrir e documentar etapas, evidências, exceções e responsabilidades de um processo.",
+      "path": "skills/mapear-processo/SKILL.md",
+      "workflow": "workflows/mapear-processo.md"
+    },
+    {
+      "id": "mapear-pessoas",
+      "description": "Documentar pessoas e responsabilidades profissionais confirmadas, evitando perfis duplicados.",
+      "path": "skills/mapear-pessoas/SKILL.md",
+      "workflow": "workflows/mapear-pessoas.md"
+    },
+    {
+      "id": "planejar-periodo",
+      "description": "Preparar prioridades do dia ou semana e pautas de acompanhamento a partir das fontes escolhidas.",
+      "path": "skills/planejar-periodo/SKILL.md",
+      "workflow": "workflows/planejar-periodo.md"
+    },
+    {
+      "id": "revisar-contexto",
+      "description": "Revisar fontes, índices e estados de um escopo para resolver duplicações, relatos antigos e divergências.",
+      "path": "skills/revisar-contexto/SKILL.md",
+      "workflow": "workflows/revisar-contexto.md"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "github",
+      "purpose": "Repositórios, issues e PRs",
+      "default": "not-selected"
+    },
+    {
+      "id": "documents",
+      "purpose": "Arquivos e documentos",
+      "default": "not-selected"
+    },
+    {
+      "id": "calendar",
+      "purpose": "Agenda",
+      "default": "not-selected"
+    },
+    {
+      "id": "email",
+      "purpose": "Email",
+      "default": "not-selected"
+    },
+    {
+      "id": "messaging",
+      "purpose": "Mensagens",
+      "default": "not-selected"
+    },
+    {
+      "id": "tasks",
+      "purpose": "Gestão de tarefas",
+      "default": "not-selected"
+    },
+    {
+      "id": "docs",
+      "purpose": "Documentação oficial",
+      "default": "not-selected"
+    },
+    {
+      "id": "custom",
+      "purpose": "Serviço próprio",
+      "default": "not-selected"
+    }
+  ]
+}
